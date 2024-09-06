@@ -23,13 +23,13 @@ def giaiptbac2():
         print("Phuong trinh vo nghiem")
     elif denta > 0:
         print("Phuong trinh co 2 nghiem phan biet")
-        x1 = (- math.sqrt(denta) + b) / (2*a)
-        x2 = (- math.sqrt(denta) - b) / (2*a)
+        x1 = (-b + math.sqrt(denta)) / (2*a)
+        x2 = (-b - math.sqrt(denta)) / (2*a)
         print("Nghiem x1 = ", x1)
         print("Nghiem x2 = ",x2)
     elif denta == 0:
         print("Phuong trinh co nghiem kep")
-        x = -c/a
+        x = -b / (2*a)
         print("Nghiem pt la ",x)
 tinhtich()
 giaiptbac2()
