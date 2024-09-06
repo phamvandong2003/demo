@@ -2,14 +2,15 @@
 using namespace std;
 
 int main(){
-    cout<<"Hello word";
-    cout<<"Tao la bo may";
+    cout<<"Hello word"<<endl;
+    cout<<"Tao la bo may"<<endl;
 
-    int a,b, tong;
+    float a, b, tong;
     a = 10;
-    cout<<"Nhap b";
-    cin>>b;
-    tong = a+b;
-    cout<<"Tong hai so = ",tong;
-    
+    b = 9;
+    tong = a*b;
+    cout<<"Tong hai so = "<<tong<<endl;
+
+
+    return 0;
 }
