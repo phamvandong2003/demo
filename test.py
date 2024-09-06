@@ -30,5 +30,6 @@ def giaiptbac2():
     elif denta == 0:
         print("Phuong trinh co nghiem kep")
         x = -c/a
+        print("Nghiem pt la ",x)
 tinhtich()
 giaiptbac2()
