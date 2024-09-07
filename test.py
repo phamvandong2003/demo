@@ -39,4 +39,6 @@ def taixiu():
     else:
         print(xx1, xx2, xx3)
         print("Ket qua la Tai",ket_qua)
+tinhtich()
+giaiptbac2()
 taixiu()
